@@ -1,5 +1,466 @@
+<!DOCTYPE html>
 <html>
+
+
+<head>
+<style>
+span.red {color:brown}
+.cities {
+    font-family:verdana;
+    background-color:pink;
+    color:white;
+    size:50;
+    margin:20px;
+    padding:20px;
+} 
+</style>
+</head>
+
+
+<head>
+<style>
+table.lamp {
+    width:100%;
+    border:1px solid #d4d4d4;
+}
+table.lamp th, td { 
+    padding:10px;
+}
+table.lamp th {
+    width:40px;
+}
+</style>
+</head>
+
+
+<head>
+<style >
+header {
+    
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;	 
+}
+nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;	      
+}
+section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+</style>
+</head>
+
+
+
+<head>
+<style>
+#header {
+    background-color:purple;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;	      
+}
+#section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
+</style>
+</head>
+
+
+
+<body  bgcolor="white"background="背景.jpg">          <!--改变背景颜色 标签属性bgcolor，属性值用引号-->
+
+<img src="1.jpg" width="1440" height="810" />
+
+
+<h1 >My First Heading For Html(First heading )</h1>
+<p>My First Paragragh</p>
+ps:begin from start tag，end at end tag；
+<hr />                               <!--水平分隔线（horizontal rule）-->
+
+
+<h2 style="background-color:pink">The Introduction Of HTML :(Second heading )</h2>
+<h3 style="background-color:pink">The Full Name Of HTML :(Third heading )</h3>
+<p>Hyper Text Markup Language<br /> Sort:Mark up language </p>    <!--一个段落里，用<br />间断段落-->
+
+
+<h2 style="background-color:pink">Love is more than a word (Second heading )</h2>
+<p> Love is more than a word<br/>It says so much.<br/>When I see these four letters,<br/>I almost feel your touch.
+<br/>This is only happened since <br/>I fell in love with you.<br/>Why this word does this <br/>I haven't got a clue.</p> 
+
+
+<h1 style="font-family:verdana"><a name="1" color="black">文本样式介绍</a></h1>
+<h4 style="font-family:verdana">style sheet outside -引用外部样式</h4>
+<p>使用外部样式表，你就可以通过更改一个文件来改变整个站点的外观。</p>
+<!--注释<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>-->
+<h4 style="font-family:verdana">style sheet inside：head里定义</h4>
+<p>当单个文件需要特别样式时，就可以使用内部样式表。</p>
+<head>
+<style type="text/css">
+body {background-color: white}
+p {margin-left: 40px}
+</style>
+</head>
+<h4 style="font-family:verdana">内联样式：标签属性里定义</h4>
+<p style="font-family:arial;color:red;font-size:20px;">字体：font-family; 颜色：color；字体大小：font-size；<br/></p>
+<p>当特殊的样式需要应用到个别元素时，就可以使用内联样式。 使用内联样式的方法是在相关的标签中使用样式属性。</p>
+
+<h1 style="font-family:verdana">格式化介绍</h1>
+<p>可直接全部格式化head，body；</p>
+<!-- <head>
+<style type="text/css">
+h1 {color: red}
+p {color: blue}
+</style>
+</head>-->
+
 <body>
-<h1>主页</h1>
+<h1>header 1</h1>
+<p>A paragraph.</p>
+</body>
+
+<b>This text is bold ——黑体label:'b'(bold)</b>
+<br />
+<strong>This text is strong——加粗label:'strong'</strong>
+<br />
+<big>This text is big——大号:label:'big'</big>
+<br />
+<em>This text is emphasized——强调label:'em'(emphasized)</em>
+<br />
+<i>This text is italic——斜体label:'i'(italic)</i>
+<br />
+<small>This text is small——小号label:'small'</small>
+<br />
+This text contains
+<sub>subscript</sub>——下沉label:'sub'
+<br />
+This text contains
+<sup>superscript</sup>——上浮label:'sup'
+<h1 style="font-family:verdana">预格式介绍</h1>
+<pre>
+<big>使用pre可以保留空 格
+以及换行 适合显示计算机代码</big>
+</pre>
+
+
+<h1 style="font-family:verdana">输出格式介绍</h1>
+<code>Computer code（code）</code>
+<br />
+<kbd>Keyboard input（kbd）</kbd>
+<br />
+<tt>Teletype text（tt）</tt>
+<br />
+<samp>Sample text（samp）</samp>
+<br />
+<var>Computer variable（var）</var>
+<br />
+<p>
+<b>注释：</b>这些标签常用于显示计算机/编程代码。
+</p>
+
+
+
+<h1 style="font-family:verdana">地址介绍</h1>
+<address>
+Written by <a href="../2练习HTML/Athena M.html">Beijing Normal University</a>.<br/> 
+Visit us at:<br/>
+bnu.cn<br/>
+XinJieKouWai.ST. <br/>
+CHINA
+</address>
+<p>地址标签用address</p>
+
+
+<h1 style="font-family:verdana">缩写介绍</h1>
+<abbr title="etcetera">etc.</abbr>
+<br />
+<acronym title="World Wide Web">WWW</acronym>
+<p>单个单词缩写label：‘abbr title’<br/>多个单词缩写label:‘acronym title’在某些浏览器中，当您把鼠标移至缩略词语上时，title 可用于展示表达的完整版本。</br>
+仅对于 IE 5 中的 acronym 元素有效。</br>
+对于 Netscape 6.2 中的 abbr 和 acronym 元素都有效。</p>
+
+
+<h2 style="font-family:verdana">The Direction Of The Words !</h2>
+<p>
+如果您的浏览器支持 bi-directional override (bdo)，下一行会从右向左输出 (rtl)；</br>
+<b><i>label</i></b>:bdo  <b><i>属性</i></b>：dir 
+</p>
+<bdo dir="rtl">
+Here is some Hebrew text
+</bdo>
+
+
+
+<h1 style="font-family:verdana">links </h1>
+<pre><p>
+有两种使用标签的方式：
+通过使用 href 属性 - 创建指向另一个文档的链接
+通过使用 name 属性 - 创建文档内的书签
+<b>“HT” - 超文本（hypertext）<b/>
+超链接 标准化叫法：锚anchor
+</p></pre>
+<p>HTML 链接 - target 属性 define where to open the web</p>
+
+
+
+<h4 style="background-color:pink">This is a heading(Fourth heading) </h4>
+<h4 style="font-family:verdana">link with line -href </h4>
+<a href="http://www.w3school.com.cn">This is a link for w3school</a>
+<h5 style="background-color:pink">This is a heading(Fifth heaading)</h5>
+<h4 style="font-family:verdana">link without line -style="text-decoration:none"</h4>
+<a href="http://baidu.com"style="text-decoration:none">百度</a>
+<h4 style="font-family:verdana">link by picture</h4>
+<a href="2.jpg"target=-blank>WORDS LINKED TO PICTURE </a><br/>
+<a href="http://baidu.com"target=-blank><img src="2.jpg"width="1000" height="500"></a>
+<h6 style="background-color:pink">This is a heading(Sixth heading )</h6>
+
+<h4 style="font-family:verdana">link with another part of the text </h4>
+<p>
+<a href="#1">click here to go to "文本格式"</a>
+</p>
+
+<h4 style="font-family:verdana">link with email </h4>
+<p>
+邮件链接
+<a href="mailto:201611940121@mail.bnu.edu.cn?subject=Hello%20again">发送邮件</a>
+</p>
+<p>
+<b>注意：</b>应该使用 %20 来替换单词之间的空格，这样浏览器就可以正确地显示文本了。
+</p>
+
+<h2 style="font-family:verdana">PICTURES </h2>
+<h4 style="font-family:verdana">positon of the picture </h4>
+<p>图像 "img src="/i/eg_cute.gif" align="bottom""在文本中</p>
+<p>图像 "img src ="/i/eg_cute.gif" align="middle"" 在文本中</p>
+<p>图像 img src ="/i/eg_cute.gif" align="top" 在文本中</p>
+<p>图像 img src ="/i/eg_cute.gif" align="left" 在文本中</p>
+<p>图像 img src ="/i/eg_cute.gif" align="right" 在文本中</p>
+<P>默认为bottom</p>
+<h4 style="font-family:verdana">the size of the picture</h4>
+<P>width=""  heught=""</p>
+<h4 style="font-family:verdana">the mistake of the picture</h4>
+<p>仅支持文本的浏览器无法显示图像，仅仅能够显示在图像的 "alt" 属性中指定的文本。在这里，"alt" 的文本是“向左转”。<br/>
+请注意，如果您把鼠标指针移动到图像上，大多数浏览器会显示 "alt" 文本。</p>
+<img src="/i/eg_goleft.gif" alt="图片无法显示" />
+<p>如果无法显示图像，将显示 "alt" 属性中的文本：</p>
+<img src="/i/eg_goleft123.gif" alt="图片无法显示" />
+
+
+<h2 style="font-family:verdana">TABLE </h2>
+<table border="4" cellpadding="10" cellspacing="5" bgcolor="white" frame="above" >
+<caption>表格标题用caption</caption>
+
+<tr>
+<td></td>
+<td colspan="2">跨列用<b>col</b>span=“number”（列）</td>
+<th>cellpadding settings</th>
+</tr>
+
+<tr>
+<th rowspan="2" align="left">
+   <ul align="left">
+    <li>表头用th</li>
+    <li>列用td</li>
+    <li>行用tr</li>
+   </ul>
+</th>
+<td><a href="http://baidu.com" target=-blank>百度</a></td>
+<td><a href="http://www.w3school.com.cn/site/index.asp">网站自建</a></td>
+<td rowspan="2" align="middle"><a href="http://www.w3school.com.cn/tiy/t.asp?f=html_table_cellpadding" >
+在table属性里设置cellpadding="10" (单元格边距）</a></br>cellspacing=“10”</br>文字方向用align=“left”</td>
+</tr>
+
+<tr>
+<td><img src="1.jpg"width="100"height="50" alt="minstake"></td>
+<td><a href="http://www.w3school.com.cn/site/index.asp"><img src="2.jpg"width="100"height="50" alt="minstake"></a></td>
+</tr>
+<p>注：行用tr；列用td；表头用th；</p>
+
+
+
+<h4 style="font-family:verdana">the reflection of the picture</h4>
+<p>请把鼠标移动到图像上，看一下状态栏的坐标如何变化。</p>
+<a href="/example/html/html_ismap.html">
+<img src="2.jpg" ismap width="100%"height="30%" />
+</a>
+
+<table border="4" cellpadding="5" cellspacing="0" bgcolor="white" frame="above" >
+<caption>各种标签</caption>
+<tr align="middle">
+<td>content</td><td colspan="3" align="middle">LISTS</td><td colspan="2" align="middle">BLOCKS</td><td>WEB 响应式设计</td>
+<td>框架</td>
+</tr>
+<tr align="middle">
+<td></td><td>list(witho<br/>ut order)</td><td>list(with<br/>order)</td><td>list defined</td>
+<td> block level</br> element</td><td> inline</br> element</td><td>Responsive Web Design</td>
+<td>frameset</td>
+</tr>
+
+<tr align="middle">
+<td >label</td><td>ul(li)</td><td>ol(li)</td><td>dl</td><td>div</td><td>span</td><td>Bootstrap</td>
+<td></td>
+</tr>
+
+<tr align="middle">
+<td></td>
+<td align="middle">type=""  <ul><li>Disk</li><li>Circle</li><li>Square</li></ul></td>
+<td align="middle">type="" <ol> <li>A</li><li>1</li><li>I</li><li>i</li></ol></td>
+<td>(dt 列表象开始)<br/>(dd 定义)</td>
+<td>division<br/>分块<br/>易布局</td><td>块内分类</td><td>分块 div class=“…”</br>h1/h2/...</br>p</td>
+<td>每个 frameset <br/>定义了一系列行或列</br>
+rows/columns 的值规定了</br>每行或每列</br>占据屏幕的面积</td>
+</tr>
+
+
+
+
+<h2 style="font-family:verdana">CITIES </h2>
+<div class="cities">
+<h2><span class="red">London<span></h2>
+<p>London is the capital city of England. 
+It is the most populous city in the United Kingdom, 
+with a metropolitan area of over 13 million inhabitants.</p>
+</div>
+
+<div class="cities" >
+<h2><span class="red">Paris</span></h2>
+<p>Paris is the capital and most populous city of France.</p>
+</div>
+
+<div class="cities">
+<h2><span class="red">Tokyo<span></h2>
+<p>Tokyo is the capital of Japan, the center of the Greater Tokyo Area,
+and the most populous metropolitan area in the world.</p>
+</div>
+
+
+
+
+<div id="header">
+<h1>City Gallery</h1>
+</div>
+
+<div id="nav">
+London<br>
+Paris<br>
+Tokyo<br>
+</div>
+
+<div id="section">
+<h1>London</h1>
+<p>
+London is the capital city of England. It is the most populous city in the United Kingdom,
+with a metropolitan area of over 13 million inhabitants.
+</p>
+<p>
+Standing on the River Thames, London has been a major settlement for two millennia,
+its history going back to its founding by the Romans, who named it Londinium.
+</p>
+</div>
+
+<div id="footer">
+Copyright W3School.com.cn
+</div>
+
+
+</br>
+
+<header>
+<h1>City Gallery</h1>
+</header>
+
+<nav>
+London<br>
+Paris<br>
+Tokyo<br>
+</nav>
+
+<section>
+<h1>London</h1>
+<p>
+London is the capital city of England. It is the most populous city in the United Kingdom,
+with a metropolitan area of over 13 million inhabitants.
+</p>
+<p>
+Standing on the River Thames, London has been a major settlement for two millennia,
+its history going back to its founding by the Romans, who named it Londinium.
+</p>
+</section>
+
+<section>
+<h1>Paris</h1>
+<p>
+Paris is the capital and most populous city of France.
+</section>
+
+<section>
+<h1>Tokyo</h1>
+<p>
+Tokyo is the capital of Japan, the center of the Greater Tokyo Area,
+and the most populous metropolitan area in the world.
+</p>
+</section>
+
+<footer>
+Copyright W3Schools.com
+</footer>
+
+
+
+<table class="lamp">
+<tr>
+  <th>
+    <img src="/images/lamp.jpg" alt="Note" style="height:32px;width:32px">
+  </th>
+  <td>
+    The table element was not designed to be a layout tool.
+  </td>
+</tr>
+<tr><td><img src="1.jpg"width="100" height="50"</td></tr>
+</table>
+
+
+<frameset cols="25%,50%,25%">
+
+  <frame src="/example/html/frame_a.html">
+  <frame src="/example/html/frame_b.html">
+  <frame src="/example/html/frame_c.html">
+
+</frameset>
+
 </body>
 </html>
