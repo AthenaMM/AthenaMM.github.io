@@ -1,2 +1,1 @@
-# AthenaMM.github.io
-some discription of my studying 
+我的第一个博客。。。。。。。。。。。。。。。。。。
